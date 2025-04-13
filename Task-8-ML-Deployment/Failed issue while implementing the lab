@@ -1,0 +1,22 @@
+I've been working on deploying a containerized application on Kubernetes, but I encountered a couple of issues related to resource allocation and pulling the container image. The pods were not being scheduled due to insufficient resources being available in the cluster, or the image was not being pulled correctly."
+
+
+:::::::
+To resolve the issue, I reviewed the pod's status using kubectl describe and found that the pods were stuck in a Pending state due to resource constraints. I attempted to adjust the resource requests in the deployment.yaml file to allow the pods to be scheduled, but I was still unable to get the pods running correctly."
+
+::
+
+I was able to identify the issues by checking the logs and examining the Kubernetes events. I also tried troubleshooting the image pull and checking the node statuses to ensure the cluster could handle the deployment. Although I wasn't able to fix it during the time, I would continue by testing different configurations for the resources or checking the registry for the image availability."
+::
+
+the issue likely arises from insufficient resources or configuration problems related to the container image. I would focus on checking the available resources on the nodes, as well as ensuring that the image tag is correct and the registry is accessible
+
+>>
+"If I had more time, I would try to adjust the resource requests further, check the node's available resources, or even scale up the cluster if necessary. I would also ensure that the container image is accessible and retry pulling it manually to rule out any image-related issues."
+:::
+
+This experience has taught me more about resource management in Kubernetes, the importance of properly configuring resource requests, and how to handle image pull issues. I will definitely be more prepared in the future to address such problems
+
+
+
+
