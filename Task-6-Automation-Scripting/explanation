@@ -1,0 +1,5 @@
+Task: Write a Bash/Python script for server setup or log analysis.
+
+Short Explanation: I wrote a Python script that automates the installation of server packages (e.g., Nginx) and starts services like Nginx. This saves time in manual setup.
+
+Deliverables: Script file and explanation of its functionality.
