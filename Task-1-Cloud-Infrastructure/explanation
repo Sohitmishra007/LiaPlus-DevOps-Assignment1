@@ -1,0 +1,5 @@
+Task: Set up and deploy a simple web app (Node.js/Python) on Azure.
+
+Short Explanation: I created an Azure App Service or VM, deployed the app, and ensured it was publicly accessible. I also configured networking for access via a public IP or URL.
+
+Deliverables: Architecture diagram, deployment steps, and screenshots of successful deployment.
