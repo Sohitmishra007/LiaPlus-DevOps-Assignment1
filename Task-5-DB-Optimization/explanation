@@ -1,0 +1,5 @@
+Task: Optimize PostgreSQL or MongoDB database for performance.
+
+Short Explanation: I implemented indexing, query optimization, and data partitioning to improve the performance of database queries. This reduced response times and enhanced overall database efficiency.
+
+Deliverables: Explanation of techniques, example queries before and after optimization.
