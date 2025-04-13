@@ -1,0 +1,5 @@
+Task: Set up monitoring/logging using Prometheus & Grafana or ELK Stack.
+
+Short Explanation: I set up Prometheus to monitor app performance, used Grafana for visualization, and created alerts for critical issues. This helped ensure the app’s performance was constantly monitored and issues were quickly identified.
+
+Deliverables: Steps for configuration, dashboard screenshots, and alert setup.
