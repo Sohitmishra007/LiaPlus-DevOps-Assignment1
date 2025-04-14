@@ -4,3 +4,16 @@ Short Explanation: I created a CI/CD pipeline that automates build, test, and de
 
 Deliverables: CI/CD YAML/Jenkinsfile, explanation of pipeline stages, and environment variables management.
 
+--------------------------
+--------------------------
+Pipeline Stages:
+
+Build: Code is checked out, dependencies are installed, and the application is built.
+
+Test: Automated tests are run to ensure code quality.
+
+Deploy: The application is deployed to Azure App Service or VM using Azure’s Web Apps Deploy GitHub Action.
+
+Environment Variables/Secrets Management:
+
+Secrets like Azure Web App publish profile can be stored in GitHub Actions Secrets.
