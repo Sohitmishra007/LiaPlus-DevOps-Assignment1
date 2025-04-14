@@ -1,0 +1,9 @@
+ Disaster Recovery & High Availability
+
+I defined a cloud-native disaster recovery strategy:
+
+RTO (Recovery Time Objective): 30 mins
+
+RPO (Recovery Point Objective): 5 mins
+
+Backups were automated using Azure Backup Vault for VMs. Snapshots were scheduled daily, and failover was tested by restoring to a new VM.
