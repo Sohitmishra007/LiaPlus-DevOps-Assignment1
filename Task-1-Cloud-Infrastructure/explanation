@@ -3,3 +3,17 @@ Task: Set up and deploy a simple web app (Node.js/Python) on Azure.
 Short Explanation: I created an Azure App Service or VM, deployed the app, and ensured it was publicly accessible. I also configured networking for access via a public IP or URL.
 
 Deliverables: Architecture diagram, deployment steps, and screenshots of successful deployment.
+
+
+---------
+Cloud Infrastructure & Deployment (Azure)
+
+For this task, I deployed a simple Python FastAPI web application on an Azure Virtual Machine. I created a Resource Group, Virtual Network, and Network Interface Card in Azure. The application was deployed on an Ubuntu-based VM using a public IP address and secured via firewall rules. The setup was made publicly accessible and tested successfully.
+
+Architecture Diagram: A basic two-tier setup with Azure VM hosting the app.
+
+Deployment Steps: Provisioned VM > Installed dependencies > Deployed app > Opened firewall port for access.
+
+Azure Configurations: Resource Group, Virtual Network, Subnet, NIC, Public IP, and NSG.
+
+Screenshots: Included proof of application running via public IP.
