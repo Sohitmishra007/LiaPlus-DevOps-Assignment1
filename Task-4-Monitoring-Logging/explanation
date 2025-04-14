@@ -3,3 +3,17 @@ Task: Set up monitoring/logging using Prometheus & Grafana or ELK Stack.
 Short Explanation: I set up Prometheus to monitor app performance, used Grafana for visualization, and created alerts for critical issues. This helped ensure the app’s performance was constantly monitored and issues were quickly identified.
 
 Deliverables: Steps for configuration, dashboard screenshots, and alert setup.
+=------------------------------------
+-------------------------------------
+
+
+
+ Monitoring & Logging
+
+I installed Prometheus and Grafana to monitor the application. Exporters were set up to collect metrics like CPU and memory usage. Grafana dashboards visualized these metrics and alerts were configured for threshold breaches.
+
+Monitoring Stack: Prometheus, Node Exporter, Grafana.
+
+Logging: Used journald logs and forwarded them to Grafana Loki (optional).
+
+Alerts: Email-based alerting for high CPU usage was configured.
