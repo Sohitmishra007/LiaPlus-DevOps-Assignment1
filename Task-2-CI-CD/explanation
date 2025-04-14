@@ -3,6 +3,25 @@ Task: Automate the deployment of the web app using GitHub Actions/Jenkins/GitLab
 Short Explanation: I created a CI/CD pipeline that automates build, test, and deployment stages. The pipeline ensures that after each push to the main branch, the app is built, tested, and deployed to Azure.
 
 Deliverables: CI/CD YAML/Jenkinsfile, explanation of pipeline stages, and environment variables management.
+-------------------------
+-------------------------
+
+
+
+
+CI/CD Pipeline Implementation
+
+I created a CI/CD pipeline using GitHub Actions. The pipeline is triggered on push events to the main branch. It contains three stages:
+
+Build: Installs dependencies.
+
+Test: Runs application tests.
+
+Deploy: Deploys to Azure VM using SSH.
+
+Environment secrets like VM_IP, SSH_USER, and PRIVATE_KEY were securely stored using GitHub Secrets. This ensures sensitive data is not exposed
+
+
 
 --------------------------
 --------------------------
